@@ -73,7 +73,7 @@ if(!$todo){
     return response("could not finde todo",404);
 }
 $todo->delete();
-        
+return response("deleted",200);
 }
 public function finish($todoId)
     {
